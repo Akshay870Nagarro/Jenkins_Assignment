@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCases.PartialUpdate">
+        <methods>
+          <include name="testCaseResult"/>
+          <include name="endTest"/>
+          <include name="endReport"/>
+          <include name="Main"/>
+          <include name="startTest"/>
+          <include name="partialUpdate"/>
+          <include name="setReports"/>
+        </methods>
+      </class> <!-- testCases.PartialUpdate -->
+      <class name="testCases.CreateBooking">
+        <methods>
+          <include name="testCaseResult"/>
+          <include name="createBooking"/>
+          <include name="endTest"/>
+          <include name="endReport"/>
+          <include name="Main"/>
+          <include name="startTest"/>
+          <include name="setReports"/>
+        </methods>
+      </class> <!-- testCases.CreateBooking -->
+      <class name="testCases.UpdateBooking">
+        <methods>
+          <include name="testCaseResult"/>
+          <include name="endTest"/>
+          <include name="endReport"/>
+          <include name="Main"/>
+          <include name="updateBooking"/>
+          <include name="startTest"/>
+          <include name="setReports"/>
+        </methods>
+      </class> <!-- testCases.UpdateBooking -->
+      <class name="testCases.RequestForNegative">
+        <methods>
+          <include name="testCaseResult"/>
+          <include name="createBooking"/>
+          <include name="endTest"/>
+          <include name="endReport"/>
+          <include name="Main"/>
+          <include name="startTest"/>
+          <include name="setReports"/>
+        </methods>
+      </class> <!-- testCases.RequestForNegative -->
+      <class name="testCases.GetBooking">
+        <methods>
+          <include name="testCaseResult"/>
+          <include name="endTest"/>
+          <include name="endReport"/>
+          <include name="Main"/>
+          <include name="startTest"/>
+          <include name="getBooking"/>
+          <include name="setReports"/>
+        </methods>
+      </class> <!-- testCases.GetBooking -->
+      <class name="testCases.ForGettingID">
+        <methods>
+          <include name="getBookingID"/>
+          <include name="testCaseResult"/>
+          <include name="endTest"/>
+          <include name="endReport"/>
+          <include name="Main"/>
+          <include name="startTest"/>
+          <include name="setReports"/>
+        </methods>
+      </class> <!-- testCases.ForGettingID -->
+      <class name="testCases.DeleteBooking">
+        <methods>
+          <include name="testCaseResult"/>
+          <include name="endTest"/>
+          <include name="endReport"/>
+          <include name="Main"/>
+          <include name="deleteBooking"/>
+          <include name="startTest"/>
+          <include name="setReports"/>
+        </methods>
+      </class> <!-- testCases.DeleteBooking -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
