@@ -1,37 +1,29 @@
 pipeline {
 
-    agent any
+  agent any
 
-    tools {
+  tools {
 
-        maven 'MAVEN_HOME' 
+    maven 'MAVEN_HOME'
 
-    }
+  }
 
- 
+  stages {
 
- 
+    stage('Example') {
 
-    stages {
+      steps {
 
-        stage('Example') {
+        withMaven(maven: 'MAVEN_HOME') {
 
-            steps {
-
- 
-
-                withMaven(maven: 'MAVEN_HOME') {
-
- 
-
-                    bat 'mvn clean test'
-
-                }
-
-            }
+          bat 'mvn clean test'
 
         }
 
+      }
+
     }
+
+  }
 
 }
